@@ -73,7 +73,10 @@ const Navbar = () => {
     <NavLink  onClick={()=>setShowMenu(false)} to='/doctors'><p className='px-4 py-2 rounded inline-block'>ALL DOCTORS</p></NavLink>
     <NavLink  onClick={()=>setShowMenu(false)} to='/about'><p className='px-4 py-2 rounded inline-block'>ABOUT</p></NavLink>
     <NavLink  onClick={()=>setShowMenu(false)} to='/contact'><p className='px-4 py-2 rounded inline-block'>CONTACT</p></NavLink>
-    <NavLink  onClick={()=>setShowMenu(false)} to='/login'><p className='px-4 py-2 rounded inline-block'>LOGIN</p></NavLink>
+    { token 
+    ? <p className='px-4 py-2 rounded inline-block' onClick={logout}>LOGOUT</p> 
+    : <NavLink  onClick={()=>setShowMenu(false)} to='/login'><p className='px-4 py-2 rounded inline-block'>LOGIN</p></NavLink>
+    }
     <a className='px-4 py-2 rounded inline-block' href={import.meta.env.VITE_ADMIN_URL}>ADMIN LOGIN</a>
   </ul>
 </div>
