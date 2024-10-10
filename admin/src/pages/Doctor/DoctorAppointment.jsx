@@ -40,7 +40,7 @@ const DoctorAppointment = () => {
             <p className="max-sm:hidden">{index + 1}</p>
             <div className="flex items-center gap-2">
               <img
-                className="w-8 rounded-full"
+                className="w-8 h-8 rounded-full"
                 src={item.userData.image}
                 alt=""
               />

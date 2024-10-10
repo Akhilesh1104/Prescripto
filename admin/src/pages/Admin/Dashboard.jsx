@@ -62,7 +62,7 @@ const Dashboard = () => {
                 key={index}
               >
                 <img
-                  className="rounded-full w-10"
+                  className="rounded-full w-10 h-10"
                   src={item.docData.image}
                   alt=""
                 />
