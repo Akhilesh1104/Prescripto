@@ -9,7 +9,7 @@
 
 ![Screenshot 2024-10-11 134908](https://github.com/user-attachments/assets/2bc89681-3932-4937-b512-c01574b9e643)
 
-## Doctor Panel:
+## Doctor's Panel:
 
 
 ![Screenshot 2024-10-11 135248](https://github.com/user-attachments/assets/aec92537-bac2-4aae-bd55-1f36c6236c16)
