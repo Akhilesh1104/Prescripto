@@ -26,7 +26,7 @@ const Banner = () => {
       {/*-------------- Right Side--------- */}
 
       <div className="hidden md:block md:w-1/2 lg:w-[370px] relative ">
-        <img className="w-full absolute bottom-0 right-0 max-w-md" src={assets.appointment_img} alt="" />
+        <img className="w-full absolute bottom-0 right-0 max-w-md" src='https://i.imghippo.com/files/Nxa1885lc.png' alt="" />
       </div>
 
     </div>
